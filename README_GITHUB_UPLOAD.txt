@@ -1,9 +1,7 @@
-GitHub upload-friendly portfolio folder with controls emphasis.
+Upload the CONTENTS of this folder to your GitHub Pages repository root.
+The repo root should directly contain index.html, styles.css, assets/, and projects/.
 
-Upload everything inside this folder to your GitHub repository:
-- index.html
-- styles.css
-- assets/
-- projects/
-
-This version keeps the design and all visible images while staying under GitHub's web upload limit.
+This version has no 'Controls & Sensing' header. It uses:
+- Mechanical Design
+- Product Development
+- Robotics/Mechatronics
