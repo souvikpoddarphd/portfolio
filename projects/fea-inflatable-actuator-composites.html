@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEA and Design Optimization of Inflatable Actuator Composites | Souvik Poddar</title>
+  <meta name="description" content="This project modeled and validated low-volume inflatable actuator composites for soft knee-assistance exosuits using finite element analysis and experimental comparison." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">SP</span><span>Souvik Poddar</span></a>
+    <nav class="nav">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#education">Education</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#documents">Documents</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../index.html#media">Media</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main class="project-page">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+    <section class="project-hero">
+      <p class="eyebrow">MS Thesis · Soft Robotics · ABAQUS FEA</p>
+      <h1>FEA and Design Optimization of Inflatable Actuator Composites</h1>
+      <p>This project modeled and validated low-volume inflatable actuator composites for soft knee-assistance exosuits using finite element analysis and experimental comparison.</p>
+      <div class="tag-row"><span>ABAQUS</span><span>Soft actuator</span><span>FEA validation</span></div>
+    </section>
+    <section class="project-body">
+      <div class="content-card">
+        <h2>Project overview</h2>
+        <p>Fabric-based inflatable actuators can generate useful assistance but often have slow dynamics because of large internal air volume.</p>
+        <p>Reducing actuator volume while preserving bending performance can make pneumatic soft actuators more practical for wearable systems. This project compared a conventional inflatable fabric beam (IFB) with a low-volume inflatable actuator composite (IAC) that uses rigid paddles to replace part of the inflatable volume.</p>
+      </div>
+      <div class="content-card callout">
+        <h2>My contribution</h2>
+        <ul>
+          <li>Performed finite element modeling of inflatable actuator composites and inflatable fabric beams in ABAQUS.</li>
+          <li>Modeled TPU and Nylon fabric layers as shell elements and rigid PLA paddles as solid elements.</li>
+          <li>Used tie constraints, boundary conditions, pressure loading, and quasi-static dynamic explicit simulations to reproduce the experimental setup.</li>
+          <li>Validated FEM results against pressure-deflection experiments and studied different internal volume configurations.</li>
+        </ul>
+      </div>
+      <div class="two-column">
+        <div class="content-card">
+          <h2>Objectives</h2>
+          <ul>
+            <li>Develop FEM models for the inflatable actuator composite and inflatable fabric beam.</li>
+            <li>Validate simulated pressure-deflection behavior against experimental results.</li>
+            <li>Evaluate whether internal actuator volume can be reduced without changing bending performance.</li>
+            <li>Use simulation to support actuator design optimization.</li>
+          </ul>
+        </div>
+        <div class="content-card">
+          <h2>Results</h2>
+          <ul>
+            <li>FEM results showed good agreement with experimental pressure-deflection data.</li>
+            <li>Reported RMSE values were approximately 6.33° for the inflatable actuator composite and 4.63° for the inflatable fabric beam.</li>
+            <li>Volume-optimization simulations compared 33%, 66%, and 100% internal volumes.</li>
+            <li>The simulations showed similar bending behavior across the different actuator volumes, supporting the low-volume composite approach.</li>
+            <li>Force characterization showed comparable output trends between IAC and IFB across multiple actuator angles.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-card">
+        <h2>Tools and methods</h2>
+        <div class="tag-row"><span>ABAQUS/Explicit</span><span>SolidWorks</span><span>Finite element modeling</span><span>TPU</span><span>Nylon 40D</span><span>PLA</span><span>Shell elements</span><span>Solid elements</span><span>Pressure-deflection testing</span><span>Experimental validation</span></div>
+      </div>
+      <div class="content-card">
+        <h2>Selected figures</h2>
+        <div class="figure-grid">
+          <div class="figure-card"><img src="../assets/figures/iac_force_characterization_custom.png" alt="Force characterization of IAC and IFB at multiple flexion angles" loading="lazy"><p class="caption"><strong>Force output characterization.</strong> Pressure-force curves at 45°, 60°, 75°, and 90° show how actuator output changes with pressure and configuration. The low-volume IAC follows trends comparable to the conventional IFB across the tested postures.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_overview_volume_replacement_custom.png" alt="Physical comparison of the inflatable actuator composite and inflatable fabric beam" loading="lazy"><p class="caption"><strong>Actuator concept.</strong> The inflatable actuator composite replaces part of the inflatable body with rigid paddles, reducing internal air volume while keeping the overall bending function.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_fem_models_custom.png" alt="Finite element models of IAC and IFB" loading="lazy"><p class="caption"><strong>Finite element model setup.</strong> The IAC model includes rigid paddles represented as solid elements and fabric layers represented as shell elements, while the IFB is modeled as a fabric beam.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_inflated_models_custom.png" alt="Inflated finite element models of IAC and IFB" loading="lazy"><p class="caption"><strong>Inflated FEM models.</strong> Simulated inflated shapes of the IAC and IFB were used to study pressure-deflection behavior under comparable loading conditions.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_experimental_pressure_deflection_custom.png" alt="Experimental angle-pressure curves for the inflatable actuator composite and inflatable fabric beam" loading="lazy"><p class="caption"><strong>Experimental pressure-deflection response.</strong> Bench-top testing showed similar angle-pressure trends between the IAC and IFB, supporting the feasibility of the low-volume actuator concept.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_fem_validation_custom.png" alt="Experimental and simulated angle-pressure curves with volume optimization illustrations" loading="lazy"><p class="caption"><strong>Model validation.</strong> Experimental and simulated curves showed good agreement for both actuator types, demonstrating that the ABAQUS models captured the main pressure-deflection behavior.</p></div>
+          <div class="figure-card"><img src="../assets/figures/iac_volume_optimization_custom.png" alt="Volume optimization of inflatable actuator composite and inflatable fabric beam" loading="lazy"><p class="caption"><strong>Volume optimization study.</strong> Simulations of reduced internal volumes showed that the low-volume designs maintained similar bending trends, supporting the goal of faster, more efficient pneumatic actuation.</p></div>
+        </div>
+        <p class="note">These are your provided project figures added directly to the FEA project page for the portfolio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Souvik Poddar. Static portfolio website.</p></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

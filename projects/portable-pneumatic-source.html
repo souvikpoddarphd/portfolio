@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portable Pneumatic Source for Wearable Soft Robotics | Souvik Poddar</title>
+  <meta name="description" content="A backpack-mounted portable pneumatic source for untethered soft robotic exosuits, built using a DC motor, lead screw, pneumatic cylinder, valves, sensors, and embedded control." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">SP</span><span>Souvik Poddar</span></a>
+    <nav class="nav">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#education">Education</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#documents">Documents</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../index.html#media">Media</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main class="project-page">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+    <section class="project-hero">
+      <p class="eyebrow">MS Thesis · Wearable Robotics · Pneumatics</p>
+      <h1>Portable Pneumatic Source for Wearable Soft Robotics</h1>
+      <p>This project focused on building a compact backpack-mounted pneumatic source capable of powering soft inflatable actuators without relying on an external compressed-air supply.</p>
+      <div class="tag-row"><span>Pneumatic systems</span><span>Mechanical design</span><span>Embedded control</span></div>
+    </section>
+
+    <section class="project-body">
+      <div class="content-card">
+        <h2>Project overview</h2>
+        <p>Pneumatic soft exosuits can be lightweight and compliant, but many systems remain tethered because they require external compressed air. For wearable use, the pneumatic source must provide enough pressure and flow rate while remaining compact enough to be carried by the user.</p>
+        <p>I designed and built a portable pneumatic source using a high-torque DC motor, lead-screw drive, double-acting pneumatic cylinder, solenoid valves, limit switches, check valves, motor driver, MOSFET board, pressure/flow sensors, and a microcontroller-based control system.</p>
+      </div>
+
+      <div class="content-card callout">
+        <h2>My contribution</h2>
+        <ul>
+          <li>Built the backpack-mounted portable pneumatic source for soft exosuit actuation.</li>
+          <li>Integrated the DC motor, lead screw, pneumatic cylinder, support frame, valves, tubing, and electronics into a compact wearable system.</li>
+          <li>Developed the electro-pneumatic switching architecture using limit switches, a motor controller, MOSFET board, and solenoid valves.</li>
+          <li>Tested the pressure and flow output of the system to evaluate its ability to power soft pneumatic actuators.</li>
+        </ul>
+      </div>
+
+      <div class="two-column">
+        <div class="content-card">
+          <h2>Objectives</h2>
+          <ul>
+            <li>Create a refill-free portable pneumatic source for wearable soft robotics.</li>
+            <li>Reduce the size and height of the mechanism using a parallel lead-screw and cylinder layout.</li>
+            <li>Generate sufficient flow rate for dynamic soft actuator inflation.</li>
+            <li>Evaluate pressure and flow output experimentally.</li>
+          </ul>
+        </div>
+        <div class="content-card">
+          <h2>Results</h2>
+          <ul>
+            <li>The portable pneumatic source was successfully mounted on a backpack frame and worn by a user.</li>
+            <li>The system generated a maximum pressure of approximately 0.131 MPa.</li>
+            <li>The system generated a maximum flow rate of approximately 21.45 SLPM.</li>
+            <li>The complete prototype demonstrated the feasibility of portable pneumatic actuation for untethered soft exosuit systems.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h2>Tools and methods</h2>
+        <div class="tag-row"><span>DC motor</span><span>Lead screw</span><span>Double-acting pneumatic cylinder</span><span>Solenoid valves</span><span>Check valves</span><span>Limit switches</span><span>Raspberry Pi</span><span>Motor control</span><span>Pressure sensing</span><span>Flow sensing</span><span>Backpack-mounted prototype</span></div>
+      </div>
+
+      <div class="content-card">
+        <h2>Selected figures</h2>
+        <div class="figure-grid">
+          <div class="figure-card">
+            <img src="../assets/figures/pneumatic_portable_system_custom.png" alt="Backpack-mounted portable pneumatic source prototype" loading="lazy">
+            <p class="caption"><strong>Portable pneumatic source prototype.</strong> Backpack-mounted system integrating the motor, lead screw, pneumatic cylinder, valves, controller, battery, and support structure into a wearable pneumatic power source.</p>
+          </div>
+          <div class="figure-card">
+            <img src="../assets/figures/pneumatic_subject_donning_custom.png" alt="User wearing the portable pneumatic source" loading="lazy">
+            <p class="caption"><strong>Wearable demonstration.</strong> The pneumatic source was mounted on a backpack frame so it could be carried by the user during untethered soft exosuit operation.</p>
+          </div>
+          <div class="figure-card">
+            <img src="../assets/figures/pneumatic_electropneumatics_custom.png" alt="Electro-pneumatic control schematic for the portable pneumatic source" loading="lazy">
+            <p class="caption"><strong>Electro-pneumatic architecture.</strong> Limit switches controlled stroke transitions, while the motor controller, MOSFET board, solenoid valves, and pneumatic cylinder coordinated air generation and output switching.</p>
+          </div>
+          <div class="figure-card">
+            <img src="../assets/figures/pneumatic_pressure_custom.png" alt="Pressure output test for the portable pneumatic source" loading="lazy">
+            <p class="caption"><strong>Pressure output testing.</strong> The prototype generated a maximum pressure of approximately 0.131 MPa when connected to the pneumatic actuator system.</p>
+          </div>
+          <div class="figure-card">
+            <img src="../assets/figures/pneumatic_flowrate_custom.png" alt="Flow-rate output test for the portable pneumatic source" loading="lazy">
+            <p class="caption"><strong>Flow-rate testing.</strong> The system reached a peak flow rate of approximately 21.45 SLPM, supporting the fast inflation requirements of fabric-based pneumatic actuators.</p>
+          </div>
+        </div>
+        <p class="note">These are your provided portable pneumatic system figures added directly to the portfolio project page.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Souvik Poddar. Static portfolio website.</p></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

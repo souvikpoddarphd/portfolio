@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotic Prosthesis Emulator for User-Driven Design of Multi-DOF Transradial Prostheses | Souvik Poddar</title>
+  <meta name="description" content="I-PEDLE is a configurable robotic transradial prosthesis emulator built to study how wrist degrees of freedom, control strategy, and device design affect functional upper-limb movement." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark">SP</span><span>Souvik Poddar</span></a>
+    <nav class="nav">
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#education">Education</a>
+      <a href="../index.html#experience">Experience</a>
+      <a href="../index.html#documents">Documents</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../index.html#media">Media</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main class="project-page">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+    <section class="project-hero">
+      <p class="eyebrow">Prosthetics · Cable-Driven Robotics · Human-Centered Design</p>
+      <h1>Robotic Prosthesis Emulator for User-Driven Design of Multi-DOF Transradial Prostheses</h1>
+      <p>I-PEDLE is a configurable robotic transradial prosthesis emulator built to study how wrist degrees of freedom, control strategy, and device design affect functional upper-limb movement.</p>
+      <div class="tag-row"><span>Prosthetics</span><span>Cable-driven design</span><span>Human testing</span></div>
+    </section>
+    <section class="project-body">
+      <div class="content-card">
+        <h2>Project overview</h2>
+        <p>Highly functional upper-limb prostheses can restore dexterous motion, but adding more powered wrist functions often increases device weight, control complexity, and cost.</p><p>This project addressed the need for a configurable robotic emulator that can evaluate prosthetic wrist design choices before committing to a final device design.</p>
+      </div>
+      <div class="content-card callout">
+        <h2>My contribution</h2>
+        <ul><li>Contributed to the mechanical design, fabrication, and validation of the I-PEDLE robotic prosthesis emulator.</li><li>Supported cable-driven actuation architecture with off-board motors to keep the on-limb prosthetic module lightweight.</li><li>Worked on experimental evaluation using trajectory tracking, multi-step response tests, and functional daily living tasks.</li><li>Analyzed upper-limb kinematics to understand how different wrist configurations affected compensatory shoulder and elbow movement.</li></ul>
+      </div>
+      <div class="two-column">
+        <div class="content-card"><h2>Objectives</h2><ul><li>Develop a lightweight multi-DOF transradial prosthesis emulator.</li><li>Enable real-time modulation of wrist configurations.</li><li>Evaluate dynamic tracking performance and response stability.</li><li>Compare fixed and actuated wrist modes during daily living tasks.</li><li>Use parameter sweeps to study how wrist DOFs influence upper-limb coordination.</li></ul></div>
+        <div class="content-card"><h2>Results</h2><ul><li>The emulator achieved stable trajectory tracking across multiple frequencies and amplitudes, with tracking error remaining within 5% of the reference trajectory range.</li><li>The system showed stable multi-step response without overshoot.</li><li>During daily living tasks, actuated wrist modes reduced several compensatory shoulder motions compared with fixed wrist conditions.</li><li>The parameter sweep showed that adding more wrist DOFs did not automatically reduce compensation for every task, highlighting the importance of task-specific and user-centered prosthesis design.</li></ul></div>
+      </div>
+      <div class="content-card">
+        <h2>Tools and methods</h2>
+        <div class="tag-row"><span>CAD</span><span>3D Printing</span><span>Cable-driven actuation</span><span>Off-board motors</span><span>Encoders</span><span>Load cells</span><span>LabVIEW</span><span>Motion capture</span><span>Biomechanics</span><span>Human-subject testing</span></div>
+      </div>
+      <div class="content-card">
+        <h2>Project figures</h2>
+        <p>The figures below summarize the I-PEDLE robotic emulator design, control architecture, experimental tasks, bench-top characterization, and human-subject task results.</p>
+        <div class="figure-grid">
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_brace_cable_routing.png" alt="I-PEDLE brace design and cable routing" loading="lazy"><p class="caption"><strong>Brace and cable-routing design.</strong> Upper-arm and forearm braces, fixed shoulder support, cable guides, bypass socket, and prosthesis module used to route off-board actuation cables while preserving consistent cable length during arm movement.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_mechanical_dof_design.png" alt="Mechanical design of I-PEDLE prosthesis emulator" loading="lazy"><p class="caption"><strong>Mechanical design of the prosthesis module.</strong> CAD renderings showing the compact 3-DOF emulator and its actuation mechanisms for pronation/supination, dart-throwing motion, and power grasp.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_system_assembly_custom.png" alt="Full I-PEDLE emulator system assembly" loading="lazy"><p class="caption"><strong>Full system assembly.</strong> I-PEDLE setup with off-board motors, load cells, control box, shoulder support, control interface, emergency switch, arm braces, and the lightweight on-limb prosthesis module.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_control_architecture.png" alt="Control architecture for cable-driven antagonistic motors" loading="lazy"><p class="caption"><strong>Control architecture.</strong> PID-based position control for antagonistic cable-driven motors, where the wrist-position error selects the driving motor and the opposing motor follows a model-based reference.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_tracking_step_response.png" alt="Trajectory tracking and multi-step response results" loading="lazy"><p class="caption"><strong>Bench-top characterization.</strong> Desired and actual encoder trajectories for pronation/supination and dart-throwing motion during sinusoidal tracking and multi-step response testing.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_task_design.png" alt="Experimental daily-living task design" loading="lazy"><p class="caption"><strong>Daily-living task design.</strong> Table-Pour, Shelf-Place, and Shelf-Pour tasks used to evaluate how different wrist configurations affect functional manipulation and upper-limb compensation.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_table_shelf_results.png" alt="Table-Pour and Shelf-Place human testing results" loading="lazy"><p class="caption"><strong>Fixed vs. all-DOF wrist results.</strong> Range-of-motion and peak-angle comparisons during Table-Pour and Shelf-Place tasks, showing reductions in several compensatory shoulder and elbow movements with the actuated wrist.</p></div>
+          <div class="figure-card"><img src="../assets/figures/robotic_emulator_shelf_pour_parameter_sweep.png" alt="Shelf-Pour parameter sweep results across wrist configurations" loading="lazy"><p class="caption"><strong>Wrist-configuration parameter sweep.</strong> Shelf-Pour results comparing fixed, DTM-only, PS-only, and all-DOF wrist modes, highlighting that prosthetic wrist benefits are task-specific and not simply proportional to the number of active DOFs.</p></div>
+        </div>
+        <p class="note">These figures are intended for your personal academic portfolio. Use only figures you have permission to share publicly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>© <span id="year"></span> Souvik Poddar. Static portfolio website.</p></footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
