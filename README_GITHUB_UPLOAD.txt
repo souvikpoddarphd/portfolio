@@ -1,4 +1,4 @@
-GitHub upload-friendly portfolio folder.
+GitHub upload-friendly portfolio folder with controls emphasis.
 
 Upload everything inside this folder to your GitHub repository:
 - index.html
@@ -6,4 +6,4 @@ Upload everything inside this folder to your GitHub repository:
 - assets/
 - projects/
 
-This version keeps the design but removes unused images so the file count stays below GitHub's web upload limit.
+This version keeps the design and all visible images while staying under GitHub's web upload limit.
