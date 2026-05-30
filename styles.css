@@ -294,3 +294,23 @@ h3 { font-size: 1.28rem; }
   .figure-grid .wide-figure { grid-column: auto; }
   .figure-grid .wide-figure img { max-height: 520px; }
 }
+
+
+.project-affiliation {
+  margin: 0.35rem 0 0.65rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.project-affiliation strong {
+  color: var(--text-main);
+}
+
+.project-page-affiliation {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-soft);
+}
