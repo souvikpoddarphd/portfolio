@@ -581,3 +581,106 @@ body.certificate-modal-open {
     max-height: calc(96vh - 5rem);
   }
 }
+
+/* Certificate thumbnail links - fixed to remove black gaps and make the image itself clickable */
+.certification-link {
+  display: block;
+  width: min(100%, 260px);
+  max-width: 260px;
+  margin: 0.25rem auto 0;
+  line-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 1rem;
+  overflow: visible;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.certification-link::after {
+  content: none !important;
+  display: none !important;
+}
+
+.certification-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.certification-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: 0 10px 24px rgba(20, 32, 51, 0.10);
+}
+
+.certification-link:hover .certification-image {
+  border-color: var(--accent);
+  box-shadow: 0 16px 32px rgba(20, 32, 51, 0.16);
+}
+
+@media (max-width: 850px) {
+  .certification-link {
+    width: min(100%, 240px);
+    max-width: 240px;
+  }
+}
+
+/* Full-screen certificate pages */
+.certificate-full-page {
+  width: min(1280px, calc(100% - 2rem));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.certificate-full-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.certificate-full-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.certificate-full-header h1 {
+  font-size: clamp(1.25rem, 3vw, 2.25rem);
+  letter-spacing: -0.03em;
+}
+
+.certificate-full-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100vh - 8.5rem);
+  margin: 0 auto;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+}
+
+@media (max-width: 700px) {
+  .certificate-full-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .certificate-full-image {
+    max-height: none;
+  }
+}
