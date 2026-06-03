@@ -16,3 +16,7 @@ Upload the full folder to Netlify Drop or GitHub Pages.
 ## Notes
 
 Some figures are extracted from published PDFs. Before using them publicly, confirm that reuse is permitted by the publisher or replace them with your own CAD renderings, screenshots, prototype photos, or recreated diagrams.
+
+## Training / Certifications update
+
+- Training/certification PDFs are stored in `assets/certifications/` and embedded in the Training / Certifications section.
