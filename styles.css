@@ -625,6 +625,23 @@ body.certificate-modal-open {
   box-shadow: 0 16px 32px rgba(20, 32, 51, 0.16);
 }
 
+/* Compact certificate links on the portfolio; full certificates remain available on their own pages. */
+.certification-card .certification-link {
+  display: inline;
+  width: auto;
+  max-width: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.certification-card .certification-link:hover {
+  border: 0;
+  box-shadow: none;
+}
+
 @media (max-width: 850px) {
   .certification-link {
     width: min(100%, 240px);
