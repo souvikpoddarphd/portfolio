@@ -175,23 +175,26 @@ h3 { font-size: 1.28rem; }
   background: #fff;
   border: 1px solid var(--line);
 }
-.resume-grid, .media-grid {
+.resume-grid, .media-grid, .news-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-.resume-card, .media-card {
+.resume-card, .media-card, .news-card {
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
-.resume-card p, .media-card p { margin: 0; color: var(--muted); }
+.resume-card p, .media-card p, .news-card p { margin: 0; color: var(--muted); }
 .resume-card .button, .media-card .button { margin-top: auto; }
 .publication-list .content-card { padding: 1.25rem 1.4rem; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.75rem; }
 .publication-links a { color: var(--accent); font-weight: 800; text-decoration: none; }
 .publication-links a:hover { text-decoration: underline; }
+
+.news-card h3 { margin: 0.2rem 0 0.65rem; }
+.news-date { color: var(--accent) !important; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
 
 
 .logo-list {
@@ -263,7 +266,7 @@ h3 { font-size: 1.28rem; }
   .nav { justify-content: flex-start; }
   .hero, .section-heading, .two-column { grid-template-columns: 1fr; }
   .hero { min-height: auto; padding-top: 3rem; }
-  .project-grid, .skills-grid, .figure-grid, .resume-grid, .media-grid { grid-template-columns: 1fr; }
+  .project-grid, .skills-grid, .figure-grid, .resume-grid, .media-grid, .news-grid { grid-template-columns: 1fr; }
 }
 
 .figure-card img {
