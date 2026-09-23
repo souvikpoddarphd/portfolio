@@ -165,7 +165,12 @@ h3 { font-size: 1.28rem; }
 .contact-links a { padding: 0.7rem 1rem; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 850; text-decoration: none; }
 
 
-.profile-card { overflow: hidden; padding: 1.1rem; }
+.profile-card {
+  width: min(100%, 360px);
+  justify-self: center;
+  overflow: hidden;
+  padding: 1.1rem;
+}
 .profile-photo {
   width: min(100%, 320px);
   max-height: 330px;
