@@ -167,8 +167,9 @@ h3 { font-size: 1.28rem; }
 
 .profile-card { overflow: hidden; padding: 1.1rem; }
 .profile-photo {
-  width: 100%;
-  max-height: 460px;
+  width: min(100%, 320px);
+  max-height: 330px;
+  margin: 0 auto;
   object-fit: contain;
   display: block;
   border-radius: calc(var(--radius) - 0.5rem);
